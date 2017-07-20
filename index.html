@@ -1,0 +1,32 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text-html charset:UTF-8" />
+  <title>xin</title>
+</head>
+<body>
+  <form ectype="multipart/form-data" action="a.php" method="POST">
+    firstname:<input type="text" name="firstname" value="firstname" id="ck1" onclick="onClk()"/><br />
+    photo&nbsp;&nbsp;&nbsp;&nbsp:<input type="file" name="pic" /><br />
+    <select name="comtry" size="6" multiple>
+      <optgroup label="bj" name="bj">
+        <option name="dc" vulue="dc">dc</option>
+        <option name="xc" vulue="xc">xc</option>
+      </optgroup>
+      <optgroup label="gd" name="gd">
+        <option name="gz" vulue="gz">gz</option>
+        <option name="sg" vulue="sg">sg</option>
+      </optgroup>
+    </select><br/>
+    <textarea name="xx" rows="6" cols="30" autofocus></textarea><br/>
+    <input type="submit" name="Ìá½»" value="tj" />
+  </form>
+
+  <script language="javascript">
+    function onClk(){
+      var clk1 = document.getElementById("ck1");
+      clk1.text="";
+    }
+  </script>
+</body>
+</html>
